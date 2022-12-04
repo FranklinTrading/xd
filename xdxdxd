@@ -245,21 +245,25 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local chr = plr.Character
 
 chr.RightHand:Destroy()
+end)
 
-end)  Section:NewButton("Reset", "Resets Fake Drop.", function()
+Section:NewButton("Reset", "Resets Fake Drop.", function()
 
 local plr = game.Players.LocalPlayer
 
 local chr = plr.Character
 
 chr.Head:Destroy()
+end)
 
-end)  local Section = Tab:NewSection("Code Items!")  Section:NewButton("Inxta", "Buys The Inxta Code Item.", function() local args = { [1] = "Inxta" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  Section:NewButton("Tweet", "Buys The Tweet Code Item.", function() local args = { [1] = "Tweet" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  Section:NewButton("Tix Tox", "Buys The Tix Tox Code Item.", function() local args = { [1] = "Tix Tox" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  local Section = Tab:NewSection("Silver Playbutton Shop")  Section:NewButton("Silver Playbutton", "Buys The Silver PlayButton.", function() local args = { [1] = "Silver" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  local Section = Tab:NewSection("Teleports")  Section:NewButton("Golden Place", "Teleports You To The Golden Place.", function()
+local Section = Tab:NewSection("Code Items!")  Section:NewButton("Inxta", "Buys The Inxta Code Item.", function() local args = { [1] = "Inxta" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  Section:NewButton("Tweet", "Buys The Tweet Code Item.", function() local args = { [1] = "Tweet" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  Section:NewButton("Tix Tox", "Buys The Tix Tox Code Item.", function() local args = { [1] = "Tix Tox" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  local Section = Tab:NewSection("Silver Playbutton Shop")  Section:NewButton("Silver Playbutton", "Buys The Silver PlayButton.", function() local args = { [1] = "Silver" } game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)) end)  local Section = Tab:NewSection("Teleports")  Section:NewButton("Golden Place", "Teleports You To The Golden Place.", function()
 
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(215.85202026367188, 25.547666549682617, 11380.29296875)
-
-end)  local Section = Tab:NewSection("XRAY")  Section:NewButton("Free XRAY", "Turns On XRAY For Free", function()
+    end)
+   
+local Section = Tab:NewSection("XRAY")  Section:NewButton("Free XRAY", "Turns On XRAY For Free", function()
 
     game.Players.localPlayer.XRay.Value = true
+   end)
 
-end)  local Section = Tab:NewSection("More Buttons Coming Soon But Ayo Bro What You Lookin At?🤨")  local Section = Tab:NewSection("Little Spoiler About New Buttons Shhhh😎")  local Section = Tab:NewSection("Buy NFT Wow 😎")  local Section = Tab:NewSection("Credits")  local Section = Tab:NewSection("Akari,Balli And B)")  local Section = Tab:NewSection("Russian Dog?!?!")  local Section = Tab:NewSection("Beta Testers!")  local Section = Tab:NewSection("Big Thanks To Balligusapo YT!")  local Section = Tab:NewSection("Kavo UI😎")  local Section = Tab:NewSection("And Espescially POP IT TRADING!")
+local Section = Tab:NewSection("More Buttons Coming Soon But Ayo Bro What You Lookin At?🤨")  local Section = Tab:NewSection("Little Spoiler About New Buttons Shhhh😎")  local Section = Tab:NewSection("Buy NFT Wow 😎")  local Section = Tab:NewSection("Credits")  local Section = Tab:NewSection("Akari,Balli And B)")  local Section = Tab:NewSection("Russian Dog?!?!")  local Section = Tab:NewSection("Beta Testers!")  local Section = Tab:NewSection("Big Thanks To Balligusapo YT!")  local Section = Tab:NewSection("Kavo UI😎")  local Section = Tab:NewSection("And Espescially POP IT TRADING!")
