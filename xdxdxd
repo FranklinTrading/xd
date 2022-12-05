@@ -128,8 +128,8 @@ Section:NewButton("teletrasportarte a alguien" , "teletrasporte", function()
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "creditos",
-    Text = "Creado por Franklin",
+    Title = "Script Made By",
+    Text = "Aedus (Subscribe him on yt)",
     Duration = 2.5,
 })
 
