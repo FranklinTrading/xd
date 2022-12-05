@@ -131,6 +131,8 @@ Section:NewButton("keyboard" , "teclado", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-local Tab = Window:NewTab("script op") local Section = Tab:NewSection("scripts super ops")
+local Tab = Window:NewTab("script crakeado") local Section = Tab:NewSection("scripts de paga gratis")
+
+Section:NewButton("serpent hub" , "serpent hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FranklinTrading/xdxdxdx/main/xdxxd",true))();
 end)
