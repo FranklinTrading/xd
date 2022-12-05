@@ -108,7 +108,7 @@ end)
 
 Section:NewButton("eliminador de items" , "activar con F", function()
 --[[
-    Creado por Franklin
+    script by Stan#8292
 ]]
 getgenv().bind = "F" --keybind to delete popits near you
 getgenv().invis = false --turns you invis so people cant see you deleting their stuff (resetting will uninvis you)
@@ -231,10 +231,4 @@ end
 local target = unpack(GetPlayer(TextBox.Text)).Character
  
 game:GetService'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = target.Head.CFrame;coin.Location = target.Head.Position game["Run Service"].Heartbeat:wait()
-end)
-
-local Tab = Window:NewTab("script crackeado") local Section = Tab:NewSection("script de paga gratis")
- 
-Section:NewButton("serpent hub" , "scipt de paga gratis", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FranklinTrading/defw/main/serpent%20hub",true))();
 end)
